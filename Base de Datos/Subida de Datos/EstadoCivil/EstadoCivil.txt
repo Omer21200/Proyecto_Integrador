@@ -1,0 +1,6 @@
+INSERT INTO estadocivil (estado) VALUES ('SIN DATO');
+INSERT INTO estadocivil (estado) VALUES ('CASADO/A');
+INSERT INTO estadocivil (estado) VALUES ('SOLTERO/A');
+INSERT INTO estadocivil (estado) VALUES ('DIVORCIADO/A');
+INSERT INTO estadocivil (estado) VALUES ('UNION DE HECHO');
+INSERT INTO estadocivil (estado) VALUES ('VIUDO/A');

@@ -1,0 +1,7 @@
+INSERT INTO genero (genero) VALUES ('MASCULINO');
+INSERT INTO genero (genero) VALUES ('FEMENINO');
+INSERT INTO genero (genero) VALUES ('NO APLICA');
+INSERT INTO genero (genero) VALUES ('TRANSEXUAL');
+INSERT INTO genero (genero) VALUES ('NO BINARIO');
+INSERT INTO genero (genero) VALUES ('TRANS MASCULINO');
+INSERT INTO genero (genero) VALUES ('TRANS FEMENINA');
