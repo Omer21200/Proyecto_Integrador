@@ -47,7 +47,7 @@ function agregarDatosAlArchivo(rutaArchivo, datosAInsertar) {
 function leerXcel(ruta) {
     const workbook = xlsx.readFile(ruta);
     const workbookSheets = workbook.SheetNames;
-    const sheet = workbookSheets[1];
+    const sheet = workbookSheets[0];
     dataExcel = xlsx.utils.sheet_to_json(workbook.Sheets[sheet]);
 
     for (const itemfila of dataExcel) {
@@ -82,8 +82,8 @@ function leerXcel(ruta) {
 //leerXcel('pru.xlsx');
 //conectarYInsertarRegiones(dat);
 
-leerXcel('2016.xlsx')
-conectarYInsertarRegiones(dat);
-//console.log(dat);
+leerXcel('EstadoCivil.xlsx')
+//conectarYInsertarRegiones(dat);
+console.log(dat);
 //const tor= buscarTorneo("1930 FIFA Men's World Cup");
 //console.log(tor);

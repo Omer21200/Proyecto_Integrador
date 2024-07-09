@@ -82,8 +82,8 @@ function leerXcel(ruta) {
 //leerXcel('pru.xlsx');
 //conectarYInsertarRegiones(dat);
 
-leerXcel('2016.xlsx')
-conectarYInsertarRegiones(dat);
-//console.log(dat);
+leerXcel('Genero.xlsx')
+//conectarYInsertarRegiones(dat);
+console.log(dat);
 //const tor= buscarTorneo("1930 FIFA Men's World Cup");
 //console.log(tor);

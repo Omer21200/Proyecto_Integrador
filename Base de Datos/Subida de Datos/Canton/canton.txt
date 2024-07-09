@@ -1,0 +1,444 @@
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('0','MAR TERRITORIAL','0');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('101','CUENCA','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('102','GIRON','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('103','GUALACEO','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('104','NABON','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('105','PAUTE','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('106','PUCARA','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('107','SAN FERNANDO','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('108','SANTA ISABEL','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('109','SIGSIG','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('110','OÑA','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('111','CHORDELEG','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('112','EL PAN','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('113','SEVILLA DE ORO','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('114','GUACHAPALA','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('115','CAMILO PONCE ENRIQUEZ','1');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('201','GUARANDA','2');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('202','CHILLANES','2');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('203','CHIMBO','2');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('204','ECHEANDIA','2');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('205','SAN MIGUEL','2');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('206','CALUMA','2');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('207','LAS NAVES','2');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('301','AZOGUES','3');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('302','BIBLIAN','3');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('303','CAÑAR','3');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('304','LA TRONCAL','3');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('305','EL TAMBO','3');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('306','DELEG','3');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('307','SUSCAL','3');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('401','TULCAN','4');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('402','BOLIVAR','4');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('403','ESPEJO','4');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('404','MIRA','4');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('405','MONTUFAR','4');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('406','SAN PEDRO DE HUACA','4');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('501','LATACUNGA','5');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('502','LA MANA','5');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('503','PANGUA','5');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('504','PUJILI','5');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('505','SALCEDO','5');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('506','SAQUISILI','5');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('507','SIGCHOS','5');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('601','RIOBAMBA','6');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('602','ALAUSI','6');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('603','COLTA','6');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('604','CHAMBO','6');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('605','CHUNCHI','6');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('606','GUAMOTE','6');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('607','GUANO','6');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('608','PALLATANGA','6');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('609','PENIPE','6');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('610','CUMANDA','6');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('701','MACHALA','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('702','ARENILLAS','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('703','ATAHUALPA','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('704','BALSAS','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('706','EL GUABO','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('707','HUAQUILLAS','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('708','MARCABELI','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('709','PASAJE','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('710','PIÑAS','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('711','PORTOVELO','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('712','SANTA ROSA','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('713','ZARUMA','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('714','LAS LAJAS','7');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('801','ESMERALDAS','8');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('802','ELOY ALFARO','8');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('803','MUISNE','8');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('804','QUININDE','8');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('805','SAN LORENZO','8');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('806','ATACAMES','8');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('807','RIOVERDE','8');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('808','LA CONCORDIA','23');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('901','GUAYAQUIL','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('902','ALFREDO BAQUERIZO MORENO','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('903','BALAO','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('904','BALZAR','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('905','COLIMES','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('906','DAULE','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('907','DURAN','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('908','EMPALME','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('909','EL TRIUNFO','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('910','MILAGRO','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('911','NARANJAL','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('912','NARANJITO','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('913','PALESTINA','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('914','PEDRO CARBO','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('916','SAMBORONDON','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('918','SANTA LUCIA','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('919','SALITRE','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('920','SAN JACINTO DE YAGUACHI','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('921','PLAYAS','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('922','SIMON BOLIVAR','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('923','CRNEL. MARCELINO MARIDUEÑA','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('924','LOMAS DE SARGENTILLO','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('925','NOBOL','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('927','GNRAL. ANTONIO ELIZALDE','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('928','ISIDRO AYORA','9');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1001','IBARRA','10');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1002','ANTONIO ANTE','10');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1003','COTACACHI','10');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1004','OTAVALO','10');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1005','PIMAMPIRO','10');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1006','SAN MIGUEL DE URCUQUI','10');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1101','LOJA','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1102','CALVAS','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1103','CATAMAYO','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1104','CELICA','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1105','CHAGUARPAMBA','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1106','ESPINDOLA','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1107','GONZANAMA','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1108','MACARA','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1109','PALTAS','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1110','PUYANGO','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1111','SARAGURO','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1112','SOZORANGA','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1113','ZAPOTILLO','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1114','PINDAL','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1115','QUILANGA','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1116','OLMEDO','11');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1201','BABAHOYO','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1202','BABA','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1203','MONTALVO','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1204','PUEBLOVIEJO','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1205','QUEVEDO','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1206','URDANETA','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1207','VENTANAS','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1208','VINCES','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1209','PALENQUE','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1210','BUENA FE','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1211','VALENCIA','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1212','MOCACHE','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1213','QUINSALOMA','12');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1301','PORTOVIEJO','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1302','BOLIVAR','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1303','CHONE','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1304','EL CARMEN','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1305','FLAVIO ALFARO','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1306','JIPIJAPA','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1307','JUNIN','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1308','MANTA','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1309','MONTECRISTI','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1310','PAJAN','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1311','PICHINCHA','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1312','ROCAFUERTE','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1313','SANTA ANA','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1314','SUCRE','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1315','TOSAGUA','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1316','24 DE MAYO','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1317','PEDERNALES','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1318','OLMEDO','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1319','PUERTO LOPEZ','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1320','JAMA','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1321','JARAMIJO','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1322','SAN VICENTE','13');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1401','MORONA','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1402','GUALAQUIZA','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1403','LIMON INDANZA','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1404','PALORA','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1405','SANTIAGO','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1406','SUCUA','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1407','HUAMBOYA','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1408','SAN JUAN BOSCO','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1409','TAISHA','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1410','LOGROÐO','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1411','PABLO SEXTO','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1412','TIWINTZA','14');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1501','TENA','15');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1503','ARCHIDONA','15');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1504','EL CHACO','15');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1507','QUIJOS','15');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1509','CARLOS JULIO AROSEMENA TOLA','15');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1601','PASTAZA','16');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1602','MERA','16');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1603','SANTA CLARA','16');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1604','ARAJUNO','16');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1701','QUITO','17');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1702','CAYAMBE','17');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1703','MEJIA','17');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1704','PEDRO MONCAYO','17');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1705','RUMIÐAHUI','17');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1707','SAN MIGUEL DE LOS BANCOS','17');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1708','PEDRO VICENTE MALDONADO','17');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1709','PUERTO QUITO','17');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1801','AMBATO','18');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1802','BAÑOS DE AGUA SANTA','18');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1803','CEVALLOS','18');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1804','MOCHA','18');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1805','PATATE','18');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1806','QUERO','18');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1807','SAN PEDRO DE PELILEO','18');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1808','SANTIAGO DE PILLARO','18');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1809','TISALEO','18');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1901','ZAMORA','19');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1902','CHINCHIPE','19');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1903','NANGARITZA','19');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1904','YACUAMBI','19');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1905','YANTZAZA','19');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1906','EL PANGUI','19');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1907','CENTINELA DEL CONDOR','19');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1908','PALANDA','19');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('1909','PAQUISHA','19');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2001','SAN CRISTOBAL','20');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2002','ISABELA','20');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2003','SANTA CRUZ','20');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2101','LAGO AGRIO','21');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2102','GONZALO PIZARRO','21');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2103','PUTUMAYO','21');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2104','SHUSHUFINDI','21');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2105','SUCUMBIOS','21');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2106','CASCALES','21');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2107','CUYABENO','21');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2201','ORELLANA','22');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2202','AGUARICO','22');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2203','LA JOYA DE LOS SACHAS','22');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2204','LORETO','22');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2301','SANTO DOMINGO','23');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2401','SANTA ELENA','24');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2402','LA LIBERTAD','24');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('2403','SALINAS','24');
+INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
+                    VALUES ('9004','EL PIEDRERO','90');

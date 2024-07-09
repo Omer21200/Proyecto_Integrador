@@ -1,0 +1,56 @@
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('NINGUNA','1');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('DESTORNILLADORES','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('TIJERAS','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('CUCHILLOS','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('PISTOLAS','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('OTROS','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('REVÓLVER','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('CARTUCHERA','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('SIN DATO','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('PISTOLA','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('MACHETES','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('NAVAJAS','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('SIN DATO','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('PUÑALES','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('FUSIL','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('OTROS','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('CARABINA','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('CARTUCHERAS','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('FUSILES','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('ARTESANAL','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('SUBAMETRALLADORA','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('AMETRALLADORA','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('ESPADAS','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('OTROS ARMAS CORTAS','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('PICA HIELO','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('BOTELLA ROTA','3');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('RIFLE','2');
+INSERT INTO armas (nombre_arma,id_tipoA) 
+                    VALUES ('RIFLES','2');

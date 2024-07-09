@@ -1,0 +1,11 @@
+INSERT INTO zona (nombre_zona) VALUES ('ZONA 0');
+INSERT INTO zona (nombre_zona) VALUES ('ZONA 1');
+INSERT INTO zona (nombre_zona) VALUES ('ZONA 2');
+INSERT INTO zona (nombre_zona) VALUES ('ZONA 3');
+INSERT INTO zona (nombre_zona) VALUES ('ZONA 4');
+INSERT INTO zona (nombre_zona) VALUES ('ZONA 5');
+INSERT INTO zona (nombre_zona) VALUES ('ZONA 6');
+INSERT INTO zona (nombre_zona) VALUES ('ZONA 7');
+INSERT INTO zona (nombre_zona) VALUES ('ZONA 8');
+INSERT INTO zona (nombre_zona) VALUES ('ZONA 9');
+INSERT INTO zona (nombre_zona) VALUES ('ZONA SIN DELIMITAR');

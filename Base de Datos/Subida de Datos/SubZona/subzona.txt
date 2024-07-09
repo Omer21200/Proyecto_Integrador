@@ -1,0 +1,56 @@
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('ZAMORA CHINCHIPE','8');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('DMG','9');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('MORONA SANTIAGO','7');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('PICHINCHA','3');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('LOJA','8');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('ORELLANA','3');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('CHIMBORAZO','4');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('COTOPAXI','4');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('DMQ','10');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('NAPO','3');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('TUNGURAHUA','4');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('AZUAY','7');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('EL ORO','8');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('CARCHI','2');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('LOS RIOS','6');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('SUCUMBIOS','2');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('MANABI','5');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('GUAYAS','6');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('ESMERALDAS','2');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('IMBABURA','2');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('PASTAZA','4');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('BOLIVAR','6');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('GALAPAGOS','6');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('SANTO DOMINGO DE LOS TSACHILAS','5');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('SANTA ELENA','6');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('CAÑAR','7');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('MAR TERRITORIAL','1');
+INSERT INTO subzona (nombre_subzona,id_zona) 
+                    VALUES ('CAÑAR','11');

@@ -79,7 +79,7 @@ function agregarDatosAlArchivo(rutaArchivo, datosAInsertar) {
 function leerXcel(ruta) {
     const workbook = xlsx.readFile(ruta);
     const workbookSheets = workbook.SheetNames;
-    const sheet = workbookSheets[5];
+    const sheet = workbookSheets[0];
     dataExcel = xlsx.utils.sheet_to_json(workbook.Sheets[sheet]);
     for (const itemfila of dataExcel) {  
 
@@ -90,8 +90,8 @@ function leerXcel(ruta) {
         dat.push(pa); // Convertir el objeto a una cadena JSON
     }
 }
-leerXcel('2016.xlsx');
-conectarYInsertarCountryTorneos(dat);
-//console.log(dat);
+leerXcel('Lugar.xlsx');
+//conectarYInsertarCountryTorneos(dat);
+console.log(dat);
 //const tor= buscarTipoLugar("ÁREAS DEDICADAS AL COMERCIO");
 
