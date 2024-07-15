@@ -17,8 +17,7 @@ async function conectarYInsertarCountryTorneos(matches) {
         for (const to of matches) {
             try {
              
-                const query = `INSERT INTO parroquia (id_parroquia,nombre_parroquia,id_canton) 
-                    VALUES ('${to.id_parroquia}','${to.nombre_parroquia}','${to.id_canton}');`;
+                const query = `INSERT INTO parroquia (id_parroquia,nombre_parroquia,id_canton) VALUES ('${to.id_parroquia}','${to.nombre_parroquia}','${to.id_canton}');`;
                 await connection.query(query); // Utiliza connection.query en lugar de connection.execute
                 console.log(`Parroquia "${to.nombre_parroquia}" insertada correctamente.`);
                 agregarDatosAlArchivo('parroquia.txt', `${query}\n`);
@@ -55,14 +54,14 @@ function leerXcel(ruta) {
     for (const itemfila of dataExcel) {  
 
         const pa = {
-            id_parroquia: itemfila['id_parroquia'],
+            id_parroquia: itemfila['codigo_parroquia'],
             nombre_parroquia: itemfila['nombre_parroquia'],
-            id_canton:itemfila['id_canton']
+            id_canton:itemfila['codigo_canton']
         };
         dat.push(pa); // Convertir el objeto a una cadena JSON
     }
 }
-leerXcel('Parroquia.xlsx');
+leerXcel('parro.xlsx');
 conectarYInsertarCountryTorneos(dat);
 //console.log(dat);
 

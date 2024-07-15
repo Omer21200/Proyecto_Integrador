@@ -17,8 +17,7 @@ async function conectarYInsertarCountryTorneos(matches) {
         for (const to of matches) {
             try {
                 
-                const query = `INSERT INTO circuito (id_circuito,nombre_circuito,id_distrito) 
-                    VALUES ('${to.id_circuito}','${to.nombre_circuito}','${to.id_distrito}');`;
+                const query = `INSERT INTO circuito (id_circuito,nombre_circuito,id_distrito) VALUES ('${to.id_circuito}','${to.nombre_circuito}','${to.id_distrito}');`;
                 await connection.query(query); // Utiliza connection.query en lugar de connection.execute
                 console.log(`distrito "${to.nombre_circuito}" insertada correctamente.`);
                 agregarDatosAlArchivo('circuito.txt', `${query}\n`);
@@ -63,7 +62,7 @@ function leerXcel(ruta) {
         dat.push(pa); // Convertir el objeto a una cadena JSON
     }
 }
-leerXcel('Circuito.xlsx');
+leerXcel('Circu.xlsx');
 conectarYInsertarCountryTorneos(dat);
 //console.log(dat);
 

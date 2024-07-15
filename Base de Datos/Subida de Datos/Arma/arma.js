@@ -17,8 +17,7 @@ async function conectarYInsertarCountryTorneos(matches) {
         for (const to of matches) {
             try {
                 const id_tipoL = await buscarTipoLugar(to.id_tipoA);
-                const query = `INSERT INTO armas (nombre_arma,id_tipoA) 
-                    VALUES ('${to.nombre_arma}','${id_tipoL.id}');`;
+                const query = `INSERT INTO armas (nombre_arma,id_tipoA) VALUES ('${to.nombre_arma}','${id_tipoL.id}');`;
                 await connection.query(query); // Utiliza connection.query en lugar de connection.execute
                 console.log(`Arma "${to.nombre_arma}" insertada correctamente.`);
                 agregarDatosAlArchivo('armas.txt', `${query}\n`);

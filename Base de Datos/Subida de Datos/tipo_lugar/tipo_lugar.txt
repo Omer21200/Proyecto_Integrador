@@ -15,3 +15,4 @@ INSERT INTO tipolugar (tipo_lugar) VALUES ('CENTRO DE PRIVACIÓN PROVISIONAL DE 
 INSERT INTO tipolugar (tipo_lugar) VALUES ('CENTROS DE DIVERSIÓN');
 INSERT INTO tipolugar (tipo_lugar) VALUES ('UNIDADES DE ASEGURAMIENTO TRANSITORIO (UAT)');
 INSERT INTO tipolugar (tipo_lugar) VALUES ('ZONA DE INSPECCIÓN');
+INSERT INTO tipolugar (tipo_lugar) VALUES ('SIN DATO');

@@ -17,8 +17,7 @@ async function conectarYInsertarCountryTorneos(matches) {
         for (const to of matches) {
             try {
                 const id_tipoL = await buscarTipoLugar(to.id_tipoL);
-                const query = `INSERT INTO lugar (nombre_lugar,id_tipol) 
-                    VALUES ('${to.nombre_lugar}','${id_tipoL.id}');`;
+                const query = `INSERT INTO lugar (nombre_lugar,id_tipol) VALUES ('${to.nombre_lugar}','${id_tipoL.id}');`;
                 await connection.query(query); // Utiliza connection.query en lugar de connection.execute
                 console.log(`Partido "${to.nombre_lugar}" insertada correctamente.`);
                 agregarDatosAlArchivo('lugar.txt', `${query}\n`);
@@ -91,7 +90,7 @@ function leerXcel(ruta) {
     }
 }
 leerXcel('Lugar.xlsx');
-//conectarYInsertarCountryTorneos(dat);
-console.log(dat);
+conectarYInsertarCountryTorneos(dat);
+//console.log(dat);
 //const tor= buscarTipoLugar("ÁREAS DEDICADAS AL COMERCIO");
 

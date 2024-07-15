@@ -1,3 +1,4 @@
+
 -- Borra la database si ya la tenemos
  drop database prin;
 -- crea la base de datos 
@@ -78,9 +79,7 @@ CREATE TABLE SubCircuito (
 CREATE TABLE Parroquia (
     id_parroquia varchar(20) PRIMARY KEY ,
     nombre_parroquia VARCHAR(255),
-    id_canton varchar(20),
-    id_subcircuito varchar(20)
-    
+    id_canton varchar(20)
 );
 
 -- Tabla Canton
@@ -136,12 +135,20 @@ CREATE TABLE Detencion (
     id_etnia INT,
     id_zona INT
 );
+
+CREATE TABLE subcircuitoparroquia (
+        id_subcircuitoparroquia int primary key AUTO_INCREMENT,
+		id_subcircuito varchar(20),
+        id_parroquia varchar(20)
+	);
+    
 ALTER TABLE Lugar ADD FOREIGN KEY (id_tipol) REFERENCES TipoLugar(id_tipol);
 ALTER TABLE Subzona ADD FOREIGN KEY (id_zona) REFERENCES Zona(id_zona);
 ALTER TABLE Distrito ADD FOREIGN KEY (id_subzona) REFERENCES Subzona(id_subzona);
 ALTER TABLE Circuito ADD FOREIGN KEY (id_distrito) REFERENCES Distrito(id_distrito);
 ALTER TABLE SubCircuito ADD FOREIGN KEY (id_circuito) REFERENCES Circuito(id_circuito);
-ALTER TABLE Parroquia ADD FOREIGN KEY (id_subcircuito) REFERENCES Subcircuito(id_subcircuito);
+ALTER TABLE subcircuitoparroquia ADD FOREIGN KEY (id_subcircuito) REFERENCES subCircuito(id_subcircuito);
+    ALTER TABLE subcircuitoparroquia ADD FOREIGN KEY (id_parroquia) REFERENCES parroquia(id_parroquia);
 ALTER TABLE Parroquia ADD FOREIGN KEY (id_canton) REFERENCES Canton(id_canton);
 ALTER TABLE Canton ADD FOREIGN KEY (id_provincia) REFERENCES Provincia(id_provincia);
 ALTER TABLE Armas ADD FOREIGN KEY (id_tipoA) REFERENCES TipoArmas(id_tipoA);
@@ -174,4 +181,13 @@ select count(id_subzona) from subzona;
 select * from distrito;
 select count(id_distrito) from distrito; 
 select * from circuito;
-select count(id_circuito) from circuito; 
+select count(id_circuito) from circuito;
+
+select * from  parroquia;
+select * from parroquia where id_parroquia = '70550';
+select * from subcircuitoparroquia;	
+select count(id_subcircuitoparroquia) from subcircuitoparroquia;
+select * from subcircuito;
+select * from subcircuito where id_subcircuito='07D01C01S01';
+select * from detencion;
+

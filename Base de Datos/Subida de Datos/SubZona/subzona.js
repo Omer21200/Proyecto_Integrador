@@ -17,8 +17,7 @@ async function conectarYInsertarCountryTorneos(matches) {
         for (const to of matches) {
             try {
                 const id_tipoL = await buscarTipoLugar(to.id_zona);
-                const query = `INSERT INTO subzona (nombre_subzona,id_zona) 
-                    VALUES ('${to.nombre_subzona}','${id_tipoL.id}');`;
+                const query = `INSERT INTO subzona (nombre_subzona,id_zona) VALUES ('${to.nombre_subzona}','${id_tipoL.id}');`;
                 await connection.query(query); // Utiliza connection.query en lugar de connection.execute
                 console.log(`subzona "${to.nombre_subzona}" insertada correctamente.`);
                 agregarDatosAlArchivo('subzona.txt', `${query}\n`);

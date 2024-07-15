@@ -1,3 +1,6 @@
 INSERT INTO tipoarmas (tipo) VALUES ('NINGUNA');
 INSERT INTO tipoarmas (tipo) VALUES ('ARMAS DE FUEGO');
 INSERT INTO tipoarmas (tipo) VALUES ('ARMAS BLANCAS (OBJETO CORTANTE O PUNZANTE)');
+INSERT INTO tipoarmas (tipo) VALUES ('SIN DATO');
+
+

@@ -17,8 +17,7 @@ async function conectarYInsertarCountryTorneos(matches) {
         for (const to of matches) {
             try {
              
-                const query = `INSERT INTO canton (id_canton,nombre_canton,id_provincia) 
-                    VALUES ('${to.id_canton}','${to.nombre_canton}','${to.id_provincia}');`;
+                const query = `INSERT INTO canton (id_canton,nombre_canton,id_provincia) VALUES ('${to.id_canton}','${to.nombre_canton}','${to.id_provincia}');`;
                 await connection.query(query); // Utiliza connection.query en lugar de connection.execute
                 console.log(`Canton "${to.nombre_canton}" insertada correctamente.`);
                 agregarDatosAlArchivo('canton.txt', `${query}\n`);
