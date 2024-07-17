@@ -123,7 +123,7 @@ CREATE TABLE Detencion (
     flagrante_boleta VARCHAR(30),
     presunta_sujinfraccion VARCHAR(255),
     presunta_infraccion VARCHAR(255),
-    presunta_modalidad VARCHAR(255),
+    presunta_modalidad VARCHAR(500),
     presunta_fragancia VARCHAR(255),
     edad INT,
     numero_detenciones INT,
@@ -191,3 +191,72 @@ select * from subcircuito;
 select * from subcircuito where id_subcircuito='07D01C01S01';
 select * from detencion;
 
+SELECT 
+    Detencion.fecha_detencion,
+    Detencion.hora_detencion,
+    Detencion.condicion,
+    Detencion.nivel_instruccion,
+    Detencion.sexo,
+    Detencion.movilizacion,
+    Detencion.estatus_migratorio,
+    Detencion.tipo,
+    Detencion.codigo_iccs,
+    Detencion.flagrante_boleta,
+    Detencion.presunta_sujinfraccion,
+    Detencion.presunta_infraccion,
+    Detencion.presunta_modalidad,
+    Detencion.presunta_fragancia,
+    Detencion.edad,
+    Detencion.numero_detenciones,
+    A.nombre_arma,
+    TA.tipo AS tipo_arma,
+    L.nombre_lugar,
+    TL.tipo_lugar,
+    G.genero,
+    EC.estado,
+    N.tipo_nacionalidad,
+    E.nombre_etnia,
+    Z.nombre_zona,
+    SZ.nombre_subzona,
+    D.nombre_distrito,
+    C.nombre_circuito,
+    SC.nombre_subcircuito,
+    P.nombre_parroquia,
+    CN.nombre_canton,
+    PR.nombre_provincia
+FROM 
+    Detencion 
+LEFT JOIN 
+    Armas A ON Detencion.id_arma = A.id_arma
+LEFT JOIN 
+    TipoArmas TA ON A.id_tipoA = TA.id_tipoA
+LEFT JOIN 
+    Lugar L ON Detencion.id_lugar = L.id_lugar
+LEFT JOIN 
+    TipoLugar TL ON L.id_tipol = TL.id_tipol
+LEFT JOIN 
+    Genero G ON Detencion.id_genero = G.id_genero
+LEFT JOIN 
+    EstadoCivil EC ON Detencion.id_estado_civil = EC.id_estado_civil
+LEFT JOIN 
+    Nacionalidad N ON Detencion.id_nacionalidad = N.id_nacionalidad
+LEFT JOIN 
+    Etnia E ON Detencion.id_etnia = E.id_etnia
+LEFT JOIN 
+    Zona Z ON Detencion.id_zona = Z.id_zona
+LEFT JOIN 
+    Subzona SZ ON SZ.id_zona = Z.id_zona
+LEFT JOIN 
+    Distrito D ON D.id_distrito = SZ.id_subzona
+LEFT JOIN 
+    Circuito C ON C.id_distrito = D.id_distrito
+LEFT JOIN 
+    SubCircuito SC ON SC.id_circuito = C.id_circuito
+LEFT JOIN 
+    subcircuitoparroquia SP ON SC.id_subcircuito = SP.id_subcircuito
+LEFT JOIN 
+    Parroquia P ON P.id_parroquia = SP.id_parroquia
+LEFT JOIN 
+    Canton CN ON P.id_canton = CN.id_canton
+LEFT JOIN 
+    Provincia PR ON CN.id_provincia = PR.id_provincia;
